@@ -17,5 +17,6 @@ app.use('/api/auth', authRoutes);
 app.use('/api/restaurant', restaurantRoutes);
 app.use('/api/items', itemRoutes);
 app.use("/api/orders", require("./routes/order.routes"));
+app.use("/api/dashboard", require("./routes/dashboard.routes"));
 
 module.exports = app;
